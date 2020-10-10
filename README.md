@@ -1,11 +1,8 @@
 # CSE412Project
-We need to use some sort of server to run this locally. I used MAMP to run it.
 Things to do:
 Design UI
-Create Database
+Fill Database
 Create Website Functionality
-To be safe about preventing anybody's work from getting erased, create your own branch and then merge your branch in with the main branch and solve any merge conflicts
-## Instructions for MAMP
-Download link: https://www.mamp.info/en/downloads/
-After downloading move PHP files into htdocs folder
-To run go to http://localhost:8888/hello.php with hellp.php replaced with file name
+
+## Instructions for creating tables without Makefile
+Download both the tables for drop and create tables. Once the tables are created, they will stay so if you need to re run the create tables, run the drop tables first. Next, start the SQL server. Follow first step of the optional part of assignment 1 to start the server. Before running the command psql -d $USER, you want to create the tables so run psql -f CreateTables.sql which creates the tables.
