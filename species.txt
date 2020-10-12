@@ -1,0 +1,3 @@
+null,null,-1,null,1
+class,family,1,name,1
+mammal,bears,2,Grizzly Bear,2

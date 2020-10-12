@@ -1,0 +1,2 @@
+city1,county1,habitat1,weather1,1
+Tempe,Maricopa,Desert,Dry,2
