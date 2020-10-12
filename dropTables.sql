@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS eater;
+DROP TABLE IF EXISTS physicalDescription;
+DROP TABLE IF EXISTS location;
+DROP TABLE IF EXISTS endangeredLevel;
+DROP TABLE IF EXISTS species;
