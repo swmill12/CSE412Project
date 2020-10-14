@@ -1,3 +1,6 @@
 null,null,-1,null,1
 class,family,1,name,1
 mammal,bears,2,Grizzly Bear,2
+mammal,dog,3,Mexican wolf,2
+mammal,cat,4,Jaguar,2
+mammal,cat,5,Ocelot,2
