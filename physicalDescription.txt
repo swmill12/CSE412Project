@@ -1,2 +1,5 @@
 1,size,color,weight,true,true,24
 2,Large,Brown,150,false,false,100
+3,Small,Grey,65,false,false,10
+4,Large,Yellow,115,false,false,13
+5,Small,Brown,30,false,false,13
