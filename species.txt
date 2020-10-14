@@ -4,4 +4,4 @@ mammal,bears,2,Grizzly Bear,2
 mammal,dog,3,Mexican Wolf,2
 mammal,cat,4,Jaguar,2
 mammal,cat,5,Ocelot,2
-bird,owl,Mexican Spotted Owl,2
+bird,owl,6,Mexican Spotted Owl,2
