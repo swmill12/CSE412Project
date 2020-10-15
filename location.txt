@@ -1,2 +1,13 @@
 city1,county1,habitat1,weather1,1
 Tempe,Maricopa,Desert,Dry,2
+Mesa,Maricopa,Desert,Dry,3
+Tuscon,Pima,Desert,Dry,4
+Scottsdale,Maricopa,Desert,Dry,5
+Sedona,Yavapai,Desert,Dry,6
+Flagstaff,Coconino,Desert,Dry,7
+Prescott,Yavapai,Desert,Dry,8
+Gilbert,Maricopa,Desert,Dry,9
+Glendale,Maricopa,Desert,Dry,10
+Peoria,Maricopa,Desert,Dry,11
+Yuma,Yuma County,Desert,Dry,12
+
