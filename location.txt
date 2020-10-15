@@ -10,4 +10,4 @@ Gilbert,Maricopa,Desert,Dry,9
 Glendale,Maricopa,Desert,Dry,10
 Peoria,Maricopa,Desert,Dry,11
 Yuma,Yuma County,Desert,Dry,12
-
+Duncan,Greenlee,Desert,Dry,13
