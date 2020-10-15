@@ -5,3 +5,4 @@ mammal,dog,3,Mexican Wolf,2
 mammal,cat,4,Jaguar,2
 mammal,cat,5,Ocelot,2
 bird,owl,6,Mexican Spotted Owl,2
+fish,fish,7,Desert Pupfish,13
