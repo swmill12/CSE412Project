@@ -44,10 +44,6 @@ WHERE endangeredLevel.population < 100;
 
 /*Insert Bat */
 INSERT INTO species
-VALUES('mammal', bat,8,'long-nosed bat',6);
-
-/*Insert Bat */
-INSERT INTO species
 VALUES('mammal', bat,8,'Lesser long-nosed bat',7); /*lives in sedona, but I am setting to live in flagstaff so that we can update it later*/
 
 INSERT INTO physicalDescription
