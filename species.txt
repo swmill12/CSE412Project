@@ -11,5 +11,9 @@ fish,fish,7,Desert Pupfish,13
 bird,vulture,8,California Condor,7
 mammal,rodent,9,New Mexico meadow jumping mouse,16
 fish,fish,10,Bonytail chub,17
-
+mammal,ungulate,11,Sonoran pronghorn,15
+mammal,bat.12,Lesser Long-Nosed bat,18
+amphibian,salamander,13,Sonora Tiger Salamander,19
+reptiles,snake,14,Narrow-headed gartersnake,4
+bird,rail,15,Yuma Clapper rail,17
 
