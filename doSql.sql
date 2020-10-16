@@ -62,4 +62,4 @@ VALUES(19, 'small','BROWN',.048,false,false, 12);
 /*Update Lesser long-nosed Bat to live in sedona*/
 UPDATE species
  SET regionId = 6 
- WHERE speciesID= 8;
+ WHERE speciesID= 19;
