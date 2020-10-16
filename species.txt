@@ -1,8 +1,15 @@
 null,null,-1,null,1
 class,family,1,name,1
 mammal,bears,2,Grizzly Bear,2
+mammal,weasel,8,black footed ferret,14
 mammal,dog,3,Mexican Wolf,2
 mammal,cat,4,Jaguar,2
+reptile,snake,9,New Mexican Ridge-Nosed rattlesnake,15
 mammal,cat,5,Ocelot,2
 bird,owl,6,Mexican Spotted Owl,2
 fish,fish,7,Desert Pupfish,13
+bird,vulture,8,California Condor,7
+mammal,rodent,9,New Mexico meadow jumping mouse,16
+fish,fish,10,Bonytail chub,17
+
+
