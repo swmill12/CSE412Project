@@ -15,3 +15,5 @@ Aubrey Valley,Yavapai,Desert,Dry,14
 Sonoran Desert,Pima,Desert,Dry,15
 White Mountains,Greenlee,Desert,Dry,16
 Phoenix,Maricopa,Desert,Dry,17
+Picaho,Pinal,Desert,Dry,18
+San Rafael Valley,Santa Cruz,Desert,Dry,19
