@@ -4,3 +4,12 @@
 4,Large,Yellow,115,false,false,13
 5,Small,Brown,30,false,false,13
 6,Small,Brown,1,false,false,15
+7,Small,Blue,1,false,false,1
+8,Large,Black,22,false,false,50
+9,Small,Brown,1,false,false,1
+10,Medium,Blue,2,false,false,30
+11,Large,Brown,120,false,false,11
+12,Small,Brown,1,false,false,12
+13,Small,Grey,NULL,false,false,NULL
+14,Medium,Grey,NULL,false,false,NULL
+15,Small,Brown,1,false,false,NULL
