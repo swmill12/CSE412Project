@@ -110,7 +110,15 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(5,\'Small\',\'Brown\',30,false,false,13),' +
     '(6,\'Small\',\'Brown\',1,false,false,15),' +
     '(16,\'Small\',\'Brown\',2.5,false,true,8),' +
-    '(12,\'Small\',\'Brown\',0.048,false,false,12);'
+    '(12,\'Small\',\'Brown\',0.048,false,false,12),' +
+    '(7,\'Small\',\'Blue\',1,false,false,1),' +
+    '(8,\'Large\',\'Black\',22,false,false,50),' +
+    '(9,\'Small\',\'Brown\',1,false,false,1),' +
+    '(10,\'Medium\',\'Blue\',2,false,false,30),' +
+    '(11,\'Large\',\'Brown\',120,false,false,11),' +
+    '(13,\'Small\',\'Grey\',NULL,false,false,NULL),' +
+    '(14,\'Medium\',\'Grey\',NULL,false,false,NULL),' +
+    '(15,\'Small\',\'Brown\',1,false,false,NULL);'
     +
     //eater
     'INSERT INTO eater VALUES(9,null,\'Grass\'),' +
