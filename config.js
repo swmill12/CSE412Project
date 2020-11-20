@@ -81,7 +81,9 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(\'bird\',\'rail\',15,\'Yuma Clapper rail\',17),'+
     '(\'reptile\',\'snake\',16,\'New Mexican Ridge-Nosed rattlesnake\',15),'+
     '(\'mammal\',\'weasel\',17,\'black\sfootedvferret\',14),'+
-    '(\'mammal\',\'dog\',18,\'Black Footed Prairie Dog\',14);'
+    '(\'mammal\',\'dog\',18,\'Black Footed Prairie Dog\',14),'+
+    '(\'reptile\',\'tortoise\',19,\'Desert Tortoise\',20),'+
+    '(\amphiban\',\'frog\',20,\'Chiricahua leopard frog\',4);'
     +
     // Location
     'INSERT INTO location VALUES(\'Tempe\',\'Maricopa\',\'Desert\',\'Dry\',2),' +
@@ -101,7 +103,8 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(\'White Mountains\',\'Greenlee\',\'Desert\',\'Dry\',16),' +
     '(\'Phoenix\',\'Maricopa\',\'Desert\',\'Dry\',17),' +
     '(\'Picaho\',\'Pinal\',\'Desert\',\'Dry\',18),' +
-    '(\'San Rafael Valley\',\'Santa Cruz\',\'Desert\',\'Dry\',19);'
+    '(\'San Rafael Valley\',\'Santa Cruz\',\'Desert\',\'Dry\',19),'+
+    '(\'Kingman\',\'Mohave\',\'Desert\',\'Dry\',20);'
     +
     //physicalDescription
     'INSERT INTO physicaldescription VALUES' +
@@ -118,7 +121,9 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(11,\'Large\',\'Brown\',120,false,false,11),' +
     '(13,\'Small\',\'Grey\',NULL,false,false,NULL),' +
     '(14,\'Medium\',\'Grey\',NULL,false,false,NULL),' +
-    '(15,\'Small\',\'Brown\',1,false,false,NULL);'
+    '(15,\'Small\',\'Brown\',1,false,false,NULL),'+
+    '(19,\'Medium\',\'Brown\',15,false,false,50),'+
+    '(20,\'Small\',\'Green\',1,false,false,18);'
     +
     //eater
     'INSERT INTO eater VALUES(9,null,\'Grass\'),' +
@@ -129,7 +134,24 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(16,18,null),' +
     '(6,9,null),' +
     '(12,null,\'Cacti\'),' +
-    '(6,12,null);'
+    '(6,12,null),'+
+    '(3,null,null),' +
+    '(4,7,null),' +
+    '(4,10,null),' +
+    '(4,19,null),' +
+    '(5,7,null),' +
+    '(5,9,null),' +
+    '(5,14,null),' +
+    '(5,15,null),' +
+    '(7,null,null),' +
+    '(8,11,null),' +
+    '(10,null,null),' +
+    '(11,null,null),' +
+    '(13,null,null),' +
+    '(14,null,null),' +
+    '(15,null,null),'+     
+    '(19,null,\'Grass\'),'+
+    '(20,null,null,null);'
     +
     //endangeredLevel
     'INSERT INTO endangeredlevel VALUES' +
@@ -145,7 +167,10 @@ pool.query('DROP TABLE IF EXISTS eater;\n' +
     '(12,2,100000,\'3-23-2015\'),' +
     '(13,5,NULL,\'1-06-1997\'),' +
     '(14,3,3500,\'7-08-2014\'),' +
-    '(15,2,15000,\'10-01-2016\');'
+    '(15,2,15000,\'10-01-2016\'),'+
+    '(19,3,190000,\'7-01-1980\'),'+
+    '(20,3,10000,\'7-20-1998\');'
+    
 
     , (err, res) => {
         console.log(err, res);
